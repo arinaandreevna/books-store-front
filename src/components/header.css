@@ -1,0 +1,33 @@
+#logo {
+    width: 140px;
+    margin-top:auto
+}
+
+.navbar {
+    font-family: FreeMono, monospace;
+    letter-spacing: 3.5px;
+    color: #8b0808
+}   
+
+.nav-link.disabled {
+    color: rgba(0,0,0,.55) !important;
+    font-weight: bold;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    margin-top:auto
+}
+
+.d-flex {
+    margin-left:auto
+}
+
+.btn-outline-success {
+    color: #000000;
+    border-color: #000000;
+}
+
+.container {
+    font-size: 28px;
+ 
+}
