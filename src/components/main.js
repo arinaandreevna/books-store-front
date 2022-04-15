@@ -1,49 +1,45 @@
-import Carousel from "react-bootstrap/Carousel"
+import Carousel from "react-bootstrap/Carousel";
+import Button from "react-bootstrap/Button";
 
-import ("./index.css");
+import("./main.css");
 
-// import logo from "../assets/logo.png";
 const Main = () => {
-    return (
-        <>
-        <Carousel>
-            <Carousel.Item>
-                <img
-                    className="d-block m-auto w-100px"
-                    src={require("../assets/logo.png")}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
-                />
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
-    
-    </>);
+  return (
+    <>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block m-auto w-20px"
+            style={{height: "500px"}}
+            src={require("../assets/slider1.png")}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block m-auto w-20px"
+            style={{ height: "500px" }}
+            src={require("../assets/slider2.png")}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block m-auto w-20px"
+            style={{ height: "500px" }}
+            src={require("../assets/slider3.png")}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
+      <div className="d-grid gap-2">
+        <Button variant="outline-secondary">
+          КУПИТЬ СЕЙЧАС 
+        </Button>{" "}
+      </div>
+   
+    </>
+  );
 };
 
-export default Main
+export default Main;

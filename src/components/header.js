@@ -11,6 +11,8 @@ import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/logo.png";
+import basket from "../assets/basket.png"
+import profil from "../assets/profil.png"
 import "./header.css";
 
 const Header = () => {
@@ -23,7 +25,7 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
-                    <Nav>
+                    <Nav variant="outline-dark">
                         <Nav.Link as={Link} to="/" disabled={pathname === "/"}>
                             ГЛАВНАЯ
                         </Nav.Link>
@@ -50,7 +52,9 @@ const Header = () => {
                         </Form>
                     
                 </Navbar.Collapse>
-            </Container>
+            </Container>      
+                <img id="basket" src={basket} />
+                <img id="profil" src={profil} />
         </Navbar>
     );
 };

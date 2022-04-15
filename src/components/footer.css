@@ -1,8 +1,7 @@
 #footer {
     padding-top: 10px;
-  
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    background-color: rgba(15, 13, 13, 0.205)!important;
   }
   
   .footer-element {
