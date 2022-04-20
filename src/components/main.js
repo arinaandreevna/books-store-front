@@ -33,7 +33,7 @@ const Main = () => {
         </Carousel.Item>
       </Carousel>
       <div className="d-grid gap-2">
-        <Button variant="outline-secondary">
+        <Button variant="outline-secondary" href="/catalog">
           КУПИТЬ СЕЙЧАС 
         </Button>{" "}
       </div>

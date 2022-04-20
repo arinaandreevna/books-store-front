@@ -7,13 +7,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Page from "./templates/page"
 import Main from "./components/main"
+import Catalog from "./components/catalog"
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Page />}>
           <Route index element={<Main />} />
-          <Route path="/catalog" element={<div>Сatalog</div>} />
+          <Route path="/catalog" element={<Catalog />} />
           <Route path="/collections" element={<div>Сollections</div>} />
           <Route path="/about" element={<div>About</div>} />
         </Route>

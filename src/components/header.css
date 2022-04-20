@@ -47,6 +47,21 @@
     border-color: #000000;
 }
 
+.btn-outline-success :hover {
+    background-color: rgb(194, 194, 194);
+    border-color: rgb(194, 194, 194)
+}
+
+.btn-outline-success :active{
+    background-color: rgb(194, 194, 194);
+    border-color: rgb(194, 194, 194)
+}
+
+.btn-outline-success :focus {
+    background-color: rgb(194, 194, 194);
+    border-color: rgb(194, 194, 194)
+}
+
 .container {
     font-size: 28px;
  

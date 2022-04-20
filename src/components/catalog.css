@@ -1,0 +1,45 @@
+.card {
+    margin-top: 70px;
+    background-color: rgba(255, 255, 255, 0.411);
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    position:relative;
+    padding-bottom:50px;
+    border-color: rgba(204, 204, 204, 0.411);
+
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    font-size: 25px;
+}
+
+.btn-primary {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border-color: rgb(194, 194, 194);
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    height: 10%;
+    border-radius: 10%;
+    font-size: 120%;
+}
+
+.btn-primary:hover {
+    background-color: rgb(194, 194, 194);
+    border-color: rgb(194, 194, 194)
+}
+
+.btn-primary:active {
+    background-color: rgb(71, 71, 71);
+    border-color: rgb(194, 194, 194)
+}
+
+.btn-primary:focus {
+    background-color: rgb(141, 141, 141);
+    border-color: rgb(194, 194, 194) 
+}
